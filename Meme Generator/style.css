@@ -1,0 +1,104 @@
+body {
+    background-color: #07103f;;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+  }
+ 
+  
+  main {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  img {
+    border: 1px solid white;
+    border-radius: 5px;
+    max-width: 350px;
+    width: 100%;
+  }
+  
+  p {
+    color: #1fcebf;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .attribution {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    font-size: 0.8rem;
+    background-color: #8097a6;
+    padding: 10px;
+    border-radius: 5px;
+    color: #1d2326;
+    box-shadow: 1px 2px 5px 1px rgba(255, 255, 255, 0.2);
+  }
+  
+  a {
+    color: white;
+  }
+  
+  a:hover {
+    opacity: 0.8;
+  }
+  
+  .content {
+    width: 65%;
+    padding-left: 30px;
+    padding-right: 20px;
+    font-size: 20px;
+  }
+  .content h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 194px;
+  }
+  .content h2{
+    font-size: 45px;
+    /* font-style: italic; */
+  }
+  
+  
+  .content p {
+    max-width: 80%;
+  }
+  
+  .sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    padding-top: 63px;
+  }
+  .sidebar h2{
+    font-size: 45px;
+  }
+  
+  button {
+ width: 202px;
+max-width: 100%;
+margin-top: 10px;
+margin-bottom: 10px;
+height: 35px;
+/* font-family: 'Times New Roman', Times, serif; */
+border: 3px solid #1f9eaf;
+/* background: transparent; */
+color: black;
+border-radius: 10px;
+
+  }
+  
+  button:hover {
+    cursor: pointer;
+    background-color: lightblue;
+  }
+  
+  .reveal-btn {
+    border: none;
+    text-decoration: underline;
+    margin: 0;
+  }
+  
+  .reveal-btn:hover {
+    color: white;
+  }

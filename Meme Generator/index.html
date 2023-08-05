@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meme Generator</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+        <section class="content">
+             <h1>-----------------Meme Generator By Maham Nadeem-------------</h1>
+          
+        <h2>Display</h2>
+        <div>
+          <h3>Coding-humor</h3>
+          <div class="meme"></div>
+        </div>
+        <div>
+          <h3>"This joke is funnier than a clown at a circus!"</h3>
+          <div class="joke"></div>
+        </div>
+        <div>
+          <h3>"His advice is wiser than an old sage's words!"</h3>
+          <div class="quote"></div>
+        </div>
+        <div>
+          <h3>"This riddle is trickier than a maze in the dark!"</h3>
+          <div class="riddle"></div>
+        </div>
+      </section>
+      <section class="sidebar">
+        <h2>Actions</h2>
+        <button onclick="showMeme()">Display a meme</button>
+        <button onclick="showJoke()">Display some Joke</button>
+        <button onclick="showQuote()">Generate some Random Quote</button>
+        <button onclick="showRiddle()">Brain-teasing Questions</button>
+        <button class="reveal-btn" onclick="revealAnswers()">
+          Display Brain-teasing Answer
+        </button>
+      </section>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
